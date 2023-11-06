@@ -65,8 +65,8 @@ public class AddSongView extends Composite<VerticalLayout> {
         layoutRow.setAlignItems(Alignment.CENTER);
         layoutRow.setJustifyContentMode(JustifyContentMode.CENTER);
         icon.getElement().setAttribute("icon", "lumo:user");
-        icon.setWidth("50px");
-        icon.setHeight("35px");
+//        icon.setWidth("50px");
+//        icon.setHeight("35px");
         buttonPrimary.setText("Save");
         buttonPrimary.setWidth("min-content");
         buttonPrimary.addThemeVariants(ButtonVariant.LUMO_PRIMARY);
